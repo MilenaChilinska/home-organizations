@@ -1,5 +1,9 @@
 import React from 'react';
 import decoration from '../assets/Decoration.svg';
+import tshirtImg from '../assets/IconTshirt.png';
+import bagImg from '../assets/IconBag.png';
+import magnifireImg from '../assets/IconMagnifier.png';
+import arraysImg from '../assets/IconArrays.png';
 
 function SimpleSteps(props) {
     return (
@@ -9,7 +13,26 @@ function SimpleSteps(props) {
                 <img src={decoration} alt='decoration' />
             </div>
             <div className='simpleStep-parts'>
-
+                <div className='simplestep-icons'>
+                    <img src={tshirtImg} alt='icon' />
+                    <h2>Wybierz rzeczy</h2>
+                    <p>Ubrania, zabawki, <br/> sprzet i inne</p>
+                </div>
+                <div className='simplestep-icons'>
+                    <img src={bagImg} alt='icon' />
+                    <h2>Spakuj je</h2>
+                    <p>Skorzystaj z <br/> workow na smieci</p>
+                </div>
+                <div className='simplestep-icons'>
+                    <img src={magnifireImg} alt='icon' />
+                    <h2>Zdecyduj komu <br /> chcesz pomoc</h2>
+                    <p>Wybierz zaufane <br/> miejsce</p>
+                </div>
+                <div className='simplestep-icons'>
+                    <img src={arraysImg} alt='icon' />
+                    <h2>Zamow kuriera</h2>
+                    <p>Kurier przyjedzie <br/> w dogodnym terminie</p>
+                </div>
             </div>
             <button>Oddaj <br /> rzeczy</button>
             
