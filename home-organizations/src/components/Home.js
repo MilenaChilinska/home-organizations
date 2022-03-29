@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import ThreeColumns from './ThreeColumns';
+import SimpleSteps from './SimpleSteps';
 import decoration from '../assets/Decoration.svg';
 import homeImg from '../assets/Home-Hero-Image.jpg';
 
@@ -41,6 +42,10 @@ function Home(props) {
         <section>
             <ThreeColumns />
         </section>
+        <section>
+            <SimpleSteps />
+        </section>
+
         </>
         
         
