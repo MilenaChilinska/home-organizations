@@ -8,10 +8,10 @@ function SimpleSteps(props) {
                 <h2>Wystarczaja 4 proste kroki</h2>
                 <img src={decoration} alt='decoration' />
             </div>
-            <div className='simpleStep-steps'>
+            <div className='simpleStep-parts'>
 
             </div>
-            <button>Oddaj rzeczy</button>
+            <button>Oddaj <br /> rzeczy</button>
             
         </div>
     );
