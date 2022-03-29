@@ -166,8 +166,18 @@ body {
     margin-left: 40px;
     margin-bottom: 50px;
 }
-.simpleStep-icons {
-    
+.simpleStep-parts h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.simpleStep-parts hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+}
+.simpleStep-parts p {
+    font-size: 16px;
+    line-height: 1.2;
 }
 .simpleSteps button {
     padding: 20px 70px;
