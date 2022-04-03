@@ -179,6 +179,9 @@ body {
     font-size: 16px;
     line-height: 1.2;
 }
+.simpleStep-parts img {
+    cursor: pointer;
+}
 .simpleSteps button {
     padding: 20px 70px;
     text-transform: uppercase;
@@ -188,6 +191,177 @@ body {
     background: none;
     border: 0.75px solid #3C3C3C;
     cursor: pointer;
+}
+.aboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+}
+.aboutUs-info {
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+}
+.aboutUs-info h3 {
+    font-size: 38px;
+    letter-spacing: -0.76px;
+    margin-bottom: 40px;
+    
+}
+.aboutUs-info p {
+    font-size: 30px;
+    letter-spacing: -0.6px;
+    line-height: 50px;
+    padding: 70px;
+    margin-top: -20px;
+}
+.peopleImage img{
+    max-width: 800px;
+}
+.signatureImg {
+    position: relative;
+    left: 160px;
+}
+.helpInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+.helpInfo1 h2 {
+    margin-bottom: 30px;
+    font-size: 38px;
+    letter-spacing: -0.76px;
+}
+.helpInfo2 {
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+}
+.helpInfo2 button {
+    padding: 20px 55px;
+    font-size: 24px;
+    background: none;
+    border: #fff;
+    cursor: pointer;
+}
+.helpInfo h3 {
+    margin-top: 50px;
+    font-size: 22px;
+    line-height: 30px;
+    width: 640px;
+    margin-bottom: 80px;
+}
+.helpInfo-detales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 22px;
+}
+.helpInfo-detales h3 {
+    margin-top: 10px;
+}
+.helpInfoBotoom h4{
+    margin-bottom: 15px;
+}
+.btn-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.btns {
+    border: 1px solid #fff;
+    background: none;
+    width: 40px;
+    height: 50px;
+    font-size: 18px;
+}
+.btns:hover {
+    border: 2px solid #707070;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.contact-img {
+    max-width: 800px;
+    position: relative;
+}
+.contact-img img {
+    max-width: 1600px;
+    opacity: 0.2;
+}
+.contact-top {
+    text-align: center;
+    margin-right: 100px;
+    position: relative;
+}
+.contact-top h3 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    letter-spacing: -0.76px;
+}
+.contact-top img {
+    margin-bottom: 20px;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+.contact-top input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-bottom: 0.75px solid var(--primaryColor);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    margin-top: 60px;
+}
+.contact-top textarea {
+    width: 77%;
+    height: 97px;
+    background-color: transparent;
+    overflow: hidden;
+    resize: none;
+    border: none;
+    border-bottom: 0.75px solid var(--primaryColor);
+    font-size: 16px;
+    color: var(--primaryColor);
+    font-family: $font-base;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.contact-top button {
+    border: 0.75px solid var(--primaryColor);
+    padding: 13px 40px;
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: -45px;
+    left: 320px;
+}
+.footer-imgs img {
+    padding: 5px;
 }
 
 

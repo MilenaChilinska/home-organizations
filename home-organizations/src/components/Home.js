@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import ThreeColumns from './ThreeColumns';
 import SimpleSteps from './SimpleSteps';
+import AboutUs from './AboutUs';
+import WhoWeHelp from './WhoWeHelp';
+import Contact from './Contact';
 import decoration from '../assets/Decoration.svg';
 import homeImg from '../assets/Home-Hero-Image.jpg';
 
@@ -14,10 +17,10 @@ function Home(props) {
         <nav>
             <div className='header-menu'>
             <ul>
-                <li><Link activeClass="active" to="home">Start</Link> </li>
-                <li><Link to="service">O co chodzi?</Link> </li>
-                <li><Link to="about">O nas</Link> </li>
-                <li><Link to="organizations">Fundacja i organizacje</Link> </li>
+                <li><Link activeClass="home" to="home">Start</Link> </li>
+                <li><Link to="simpleSteps">O co chodzi?</Link> </li>
+                <li><Link to="aboutUs">O nas</Link> </li>
+                <li><Link to="helpInfo">Fundacja i organizacje</Link> </li>
                 <li><Link to="contact">Kontakt</Link> </li>
             </ul>
             </div>
@@ -44,6 +47,15 @@ function Home(props) {
         </section>
         <section>
             <SimpleSteps />
+        </section>
+        <section>
+            <AboutUs />
+        </section>
+        <section>
+            <WhoWeHelp />
+        </section>
+        <section>
+            <Contact />
         </section>
 
         </>
