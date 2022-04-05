@@ -30,8 +30,8 @@ function Rejestracja(props) {
             <input type='password'/>
         </div>
         <div className='regestration-btns'>
-            <button>Zaloguj się</button>
-            <button><RouterLink to="/logowanie">Załóż konto</RouterLink></button>
+            <button><RouterLink to="/logowanie">Zaloguj się</RouterLink></button>
+            <button>Załóż konto</button>
         </div>
         </div>
     );
