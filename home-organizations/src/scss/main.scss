@@ -351,6 +351,7 @@ body {
     margin-top: 20px;
     font-size: 18px;
     font-weight: 300;
+    cursor: pointer;
 }
 .footer {
     display: flex;
@@ -360,11 +361,68 @@ body {
     margin-top: -45px;
     left: 320px;
 }
+.footer p {
+    font-size: 18px;
+}
 .footer-imgs img {
     padding: 5px;
 }
-
-
+// ------------logowanie
+.login-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 40px;
+    letter-spacing: -0.8px;
+    text-align: center;
+}
+.login-title img {
+    margin-top: 20px;
+}
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    background-color: var(--boxBackgroundColor);
+    height: 245px;
+    width: 385px;
+}
+.login-form h3 {
+    position: relative;
+    right: 90px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+.login-form input {
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.login-btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+}
+.login-btns button {
+    border: 0.75px solid #fff;
+    
+    background: transparent;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.login-btns button:hover {
+    border: 0.75px solid var(--primaryColor);
+}
 
 
 

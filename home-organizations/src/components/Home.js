@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from "react-router-dom";
 import ThreeColumns from './ThreeColumns';
 import SimpleSteps from './SimpleSteps';
 import AboutUs from './AboutUs';
@@ -36,7 +37,7 @@ function Home(props) {
                     <img src={decoration} alt='Decoration'/>
                 </div>
                 <div className='btn-home'>
-                    <button>Oddaj <br/> rzeczy</button>
+                <button><RouterLink to="/logowanie">Oddaj <br /> rzeczy</RouterLink></button>
                     <button>Zorganizuj <br/> zborke</button>
                 </div>
                 
