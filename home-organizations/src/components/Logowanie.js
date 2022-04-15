@@ -17,6 +17,7 @@ function Logowanie(props) {
             </ul>
             </div>
         </nav>
+        <div className='login-container'>
         <div className='login-title'>
             <h2>Zaloguj się</h2>
             <img src={decoration} alt='decoration' />
@@ -28,8 +29,9 @@ function Logowanie(props) {
             <input type='password'/>
         </div>
         <div className='login-btns'>
-        <button><RouterLink to="/logowanie">Załóż konto</RouterLink></button>
+        <button><RouterLink to="/rejestracja">Załóż konto</RouterLink></button>
             <button>Zaloguj się</button>
+        </div>
         </div>
         </div>
     );

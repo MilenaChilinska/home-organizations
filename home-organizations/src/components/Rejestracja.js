@@ -17,6 +17,7 @@ function Rejestracja(props) {
             </ul>
             </div>
         </nav>
+        <div className='registration-container'>
         <div className='regestration-title'>
             <h2>Załóż konto</h2>
             <img src={decoration} alt='decoration' />
@@ -32,6 +33,7 @@ function Rejestracja(props) {
         <div className='regestration-btns'>
             <button><RouterLink to="/logowanie">Zaloguj się</RouterLink></button>
             <button>Załóż konto</button>
+        </div>
         </div>
         </div>
     );
