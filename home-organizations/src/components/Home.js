@@ -10,8 +10,6 @@ import decoration from '../assets/Decoration.svg';
 import homeImg from '../assets/Home-Hero-Image.jpg';
 
 
-
-
 function Home(props) {
     return (
         <>
@@ -37,7 +35,7 @@ function Home(props) {
                     <img src={decoration} alt='Decoration'/>
                 </div>
                 <div className='btn-home'>
-                <button><RouterLink to="/logowanie">Oddaj <br /> rzeczy</RouterLink></button>
+                <button><RouterLink className='text-link' to="/logowanie">Oddaj <br /> rzeczy</RouterLink></button>
                     <button>Zorganizuj <br/> zborke</button>
                 </div>
                 

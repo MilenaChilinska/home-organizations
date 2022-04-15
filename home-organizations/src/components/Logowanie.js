@@ -3,13 +3,14 @@ import { Link } from 'react-scroll';
 import { Link as RouterLink } from "react-router-dom";
 import decoration from '../assets/Decoration.svg';
 
+
 function Logowanie(props) {
     return (
         <div>
             <nav>
             <div className='header-menu'>
             <ul>
-                <li><Link activeClass="home" to="home">Start</Link> </li>
+                <li><RouterLink className='text-link ' to="/">Start</RouterLink > </li>
                 <li><Link to="simpleSteps">O co chodzi?</Link> </li>
                 <li><Link to="aboutUs">O nas</Link> </li>
                 <li><Link to="helpInfo">Fundacja i organizacje</Link> </li>
@@ -29,7 +30,9 @@ function Logowanie(props) {
             <input type='password'/>
         </div>
         <div className='login-btns'>
-        <button><RouterLink to="/rejestracja">Załóż konto</RouterLink></button>
+            <button>
+                <RouterLink className='text-link'  to="/rejestracja">Załóż konto</RouterLink>
+            </button>
             <button>Zaloguj się</button>
         </div>
         </div>

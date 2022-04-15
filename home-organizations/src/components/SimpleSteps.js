@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as RouterLink} from "react-router-dom";
 import decoration from '../assets/Decoration.svg';
 import tshirtImg from '../assets/IconTshirt.png';
 import bagImg from '../assets/IconBag.png';
@@ -38,7 +39,7 @@ function SimpleSteps(props) {
                     <p>Kurier przyjedzie <br/> w dogodnym terminie</p>
                 </div>
             </div>
-            <button>Oddaj <br /> rzeczy</button>
+            <button> <RouterLink className='text-link' to="/logowanie">Oddaj <br /> rzeczy</RouterLink></button>
             
         </div>
     );

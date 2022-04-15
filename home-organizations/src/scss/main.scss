@@ -25,6 +25,7 @@ body {
 .header-link div:hover {
     border: 0.75px solid var(--yellowColor);
     padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .header-menu ul {
@@ -46,6 +47,7 @@ body {
 .header-menu ul li:hover {
     border: 0.75px solid var(--primaryColor);
     padding: 10px 20px;
+    border-radius: 5px;
 }
 .container-home {
     display: flex;
@@ -449,7 +451,10 @@ body {
     border: 0.75px solid var(--primaryColor);
     border-radius: 5px;
 }
-
+.text-link {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
